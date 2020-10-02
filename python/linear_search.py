@@ -1,18 +1,20 @@
-# creating List
-numberList=[1,12,44,21,64,28,87,45,34,63]
-#---------------------------LINEAR SORT--------------------------------------------#
+# Assigning list to variable numberList
+number_list = [1, 12, 44, 21, 64, 28, 87, 45, 34, 63]
+
+#---------------------------LINEAR SEARCH--------------------------------------------#
 # function for linear search
-def linearSearch(x):
-if x in numberList:
-return 1
-else:
-return -1
-x=int(input("enter element to search "))
+def linear_search(x):
+	for i, num in enumerate(number_list):
+		if (num == x):
+			return i
+	return -1
+
+print("Array is", number_list)
+x = int(input("Enter element to search - "))
 #calling function
-result=linearSearch(x)
-6
-if (result == 1):
-y=numberList.index(x)
-print('element is found at index',str(y))
+index = linear_search(x)
+
+if (index != -1):
+	print('Element found at index', str(index))
 else:
-print('element is not present in array')
+	print('Element is not present in the array')
