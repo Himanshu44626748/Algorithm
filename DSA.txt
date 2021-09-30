@@ -8,3 +8,7 @@ Graphs
 Policy Based Data Structure
 Unorderd Map
 Unordered Set
+Binary Search Tree
+Heap
+Hashing
+Weighted Graphs
