@@ -7,6 +7,7 @@ changesdone
 4. Selection sorting method
 5. Do the brute force method 
 =======
+my name is hi,manshu
  new-branch
 4. Selection Sort
 =======
