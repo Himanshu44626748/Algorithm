@@ -1,0 +1,119 @@
+Vector
+header: <vector>
+it belongs to namespace std.
+syntax: vector <data_type> name(size);
+functions: vector_name.push_back(data)
+
+
+Destructor
+It is a special member function.
+It is called implicitly when an object is destroyed.
+Syntax: tilde character(~) followed by class name.
+
+
+
+string_variable.size() returns length of string.
+for ex. name.size()
+it returns number of characters in string 'name'.
+string_variable.substr(initial_index, final_index)
+for ex. name.substr(0, 25) 
+it returns first 25 characters of string 'name'.
+
+
+=><random> header is used to genrate unpredictable random numbers.
+=>default_random_engine and uniform_int_distribution
+=>default_random_engine : generates random value within predefined min and max.
+not truely random-- psuedorandom.
+=>uniform_int_distribution<int> distr(0, 5);  //Range [0,5]
+uniform_real_distribution<double> distrR(0,5);
+//Range [0, 5)
+poissson_distribution<int> distrP(1.0);
+//mean
+normal_distribution<double> distrN(10.0, 3.0)
+//mean, standard variation
+
+
+sort and binary_search
+header: <algorithm>
+sort(array.begin(), array.end());
+For built-in array syntax is:
+sort(begin(array), end(array));
+binary_search(array.begin(), array.end(), "searchkey");
+
+
+Built-in array
+=>they can't be compared using relational operators.
+=>they cannot be assigned to one another.
+=>they dont know their own size.
+=>they don't provide automatic bounds checking.
+
+
+headers should never contain 'using' directives or 'using' directives.
+
+TEMPLATE
+template<typename X>
+template<class X>
+used in place of function overloading.
+forex. X max(X a, X b)
+
+
+:: is known as scope resolution operator.
+It used to access function of any class.
+Also used to access global variable when local ang global variable has same name.
+
+
+Ranged based 'for' statement
+Syntax: for(rangeVaraibleDeclaration : expression)
+ex. for(int item : items)
+
+
+FUNCTION OVERLOADING
+functions with the same names but different signatures. 
+forex.  int square(int)
+double square(double)
+Creating overloaded functions with identical parameter lists and different return types is
+a compilation error
+
+
+Array definition:
+array<type, arraySize> arrayName;
+arrayName.size() returns the size of array
+
+
+when we use sizeof with a pointer it returns size of pointer but the variable whom pointer points.
+
+
+setw(): sets field width;
+setprecision(): sets precision;
+left: aligns the text left;
+right: aligns the text right;
+
+inline functions: placing 'inline' before a function's return type in the function definition advises the compiler to generate a copy of the function's body code in every place where the function is called to avoid a function call. It is used to reduce the function call overhead. It is a request to compiler, not a command. 
+
+
+=>rand()
+header: #include<cstdlib>
+rand()%6
+here, it's called scaling and 6 is scaling factor. It generates numbers between 0 to 5.
+=>srand(seed)
+=>time(NULL) returns the current time as the number of seconds since january 1, 1970, at midnight GMT.
+when used as srand(static_cast<unsigned int>(time(0))) it's used as seed value for srand().
+The function prototype for time is in <ctime>
+
+
+non-parameterrised stream manipulator
+for ex. endl, fixed, showpoint, left, right etc.
+
+cerr is used to generate error.
+
+
+header file:  #inlcude<iomanip>
+parameterised stream manipulator 
+for ex. setprecision(), setw()
+
+
+things to study;
+=>scoped enums, declared with keyword enum class
+=> size_t defined in <cstddef>
+=>buffer overflow
+=> sticky settings nd non-sticky settings.
