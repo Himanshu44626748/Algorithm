@@ -5,4 +5,7 @@ Stack
 Queue
 Tree
 Graphs
+Binary Search Tree
+Heap
+Hashing
 Weighted Graphs
