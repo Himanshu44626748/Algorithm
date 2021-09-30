@@ -8,3 +8,4 @@ Graphs
 Binary Search Tree
 Heap
 Hashing
+Weighted Graphs

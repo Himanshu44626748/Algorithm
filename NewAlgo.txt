@@ -2,3 +2,19 @@ Algorithms list:
 1. Divide and Conquer
 2. Greedy Method
 3. Dynamic Programming
+<<<<<<< Updated upstream
+changesdone
+4. Selection sorting method
+5. Do the brute force method 
+=======
+ new-branch
+4. Selection Sort
+=======
+4. Selection sorting method
+ master
+ master
+=======
+4.brute force Algorithms
+5.backtracking Algorithms
+6.Sorting Algorithms
+>>>>>>> Stashed changes

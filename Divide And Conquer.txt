@@ -1,5 +1,9 @@
 Divide and conquer is the algorithm of dividing and the data into smaller parts and
 solving the smaller data and then merging the smaller parts to get the final result.
+
+
 It makes the problem solving easy and reduces the time complexity of algorithm.
+
+
 Few examples of divide and conquer are Merge Sort, Quick Sort, Binary Search and many other 
 algorithms.
