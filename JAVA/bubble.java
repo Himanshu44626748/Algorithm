@@ -10,7 +10,7 @@ public class bubble
     System.out.print("\n Enter Size of Array\n");
     n=sc.nextInt();
     int [] a=new int[n];
-    System.out.print("GIVE NUMBERS FOR ARRAY :");
+    System.out.print("GIVE NUMBERS FOR ARRAY (separated by spaces):");
     for( int i=0;i<=n-1;i++)
     {   
         a[i]=sc.nextInt();
